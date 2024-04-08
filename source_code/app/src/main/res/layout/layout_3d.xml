@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:padding="10sp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3D"
+        android:textSize="40sp"
+        android:id="@+id/textView13"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Volume"
+        android:id="@+id/textView14"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:paddingTop="10sp"
+        android:fillViewport="true"
+        android:layout_height="fill_parent"
+        >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <TableRow>
+                <ImageView
+                    android:layout_height="300sp"
+                    android:layout_width="300sp"
+                    android:background="@drawable/threed"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageView3d" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis3d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="Three-dimensional space is a geometric three-parameter model of the physical universe (without considering time) in which all known matter exists. These three dimensions can be labeled by a combination of three chosen from the terms length, width, height, depth, and breadth. Any three directions can be chosen, provided that they do not all lie in the same plane." >
+                </TextView>
+
+            </TableRow>
+
+            <TableRow>
+                <TextView android:id="@+id/dis23d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="In physics and mathematics, a sequence of n numbers can be understood as a location in n-dimensional space. When n = 3, the set of all such locations is called three-dimensional Euclidean space." >
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Three-Dimensional Geometry"
+                    android:id="@+id/textView233d"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:padding="10sp"
+                    android:text="Polytopes"
+                    android:id="@+id/textView243d"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="In three dimensions, there are nine regular polytopes: the five convex Platonic solids and the four nonconvex Kepler-Poinsot polyhedra.Some of them are shown below:"
+                    android:id="@+id/textView253d"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/shapeLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/threed3"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf33345" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/threed1"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd1" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/threed2"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd2" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="HyperSphere"
+                    android:id="@+id/textView263d"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="A sphere in 3-space (also called a 2-sphere because its surface is 2-dimensional) consists of the set of all points in 3-space at a fixed distance r from a central point P. The volume enclosed by this surface is:"
+                    android:id="@+id/textView273d"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/threedf"
+                    android:paddingBottom="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageViewf333" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

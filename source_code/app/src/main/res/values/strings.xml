@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TenDimensions</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Made by (Adnyey)Manas Mahajan</string>
+    <string name="tess">View animated tesseract rotation in 4D <a href="http://upload.wikimedia.org/wikipedia/commons/5/55/Tesseract.gif">-tap here-</a></string>
+<string name="tend">Cartesian coordinates for the vertices of a dekeract centered at the origin and edge length 2 are (±1,±1,±1,±1,±1,±1,±1,±1,±1,±1) while the interior of the same consists of all points (x0, x1, x2, x3, x4, x5, x6, x7, x8, x9) xi[1,-1]</string>
+<string name="nined">Cartesian coordinates for the vertices of a 9-cube centered at the origin and edge length 2 are (±1,±1,±1,±1,±1,±1,±1,±1,±1) while the interior of the same consists of all points (x0, x1, x2, x3, x4, x5, x6, x7, x8) xi[1,-1]</string>
+</resources>

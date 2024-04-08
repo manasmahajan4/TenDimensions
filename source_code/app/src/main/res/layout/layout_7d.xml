@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:padding="10sp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7D"
+        android:textSize="40sp"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hepteract"
+        android:id="@+id/textView18"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:paddingTop="10sp"
+        android:fillViewport="true"
+        android:layout_height="fill_parent"
+        >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            >
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/sevend"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageView" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="In mathematics, a sequence of n real numbers can be understood as a location in n-dimensional space. When n = 7, the set of all such locations is called 7-dimensional space. Often such a space are studied as a vector space, without any notion of distance." >
+                </TextView>
+
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="More generally, the term may refer to a seven-dimensional vector space over any field, such as a seven-dimensional complex vector space, which has 14 real dimensions. " >
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Seven-Dimensional Geometry"
+                    android:id="@+id/textView23"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:padding="10sp"
+                    android:text="Polytopes"
+                    android:id="@+id/textView24"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="A polytope in seven dimensions is called a 7-polytope. The most studied are the regular polytopes, of which there are only three in seven dimensions: the 7-simplex, 7-cube, and 7-orthoplex. A wider family are the uniform 7-polytopes, constructed from fundamental symmetry domains of reflection, each domain defined by a Coxeter group. Each uniform polytope is defined by a ringed Coxeter-Dynkin diagram. "
+                    android:id="@+id/textView25"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView14d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/shapeLayout4d"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/sevend1"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf333454d" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/sevend2"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd14d" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/sevend3"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd24d" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/sevend4"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd24dd" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/sevend5"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd24ddd" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="HyperSphere"
+                    android:id="@+id/textView26"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="The 6-sphere or hypersphere in seven-dimensional Euclidean space is the six-dimensional surface equidistant from a point, e.g. the origin. It has symbol S6, with formal definition for the 6-sphere with radius r. The volume of the space bounded by this 6-sphere is"
+                    android:id="@+id/textView27"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/sevendf"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageViewf" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:padding="10sp"
+    android:background="#ff7043"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Content"
+        android:textSize="40sp"
+        android:id="@+id/textView11"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Theories"
+        android:id="@+id/textView22"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:paddingTop="10sp"
+        android:fillViewport="true"
+        android:layout_height="fill_parent"
+        >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            >
+            <TableRow>
+                <Button android:layout_height="wrap_content" android:layout_marginBottom="1sp" android:textColor="#ffffff" android:background="#dd2c00" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll" android:text="Leech Lattice" android:linksClickable="true" android:onClick="goToll"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_height="wrap_content" android:layout_marginBottom="1sp" android:textColor="#ffffff" android:background="#dd2c00" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll2" android:text="SuperString Theory" android:linksClickable="true" android:onClick="goToSST"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_height="wrap_content" android:layout_marginBottom="1sp" android:textColor="#ffffff" android:background="#dd2c00" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll3" android:text="M-Theory" android:linksClickable="true" android:onClick="goToMT"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_height="wrap_content" android:layout_marginBottom="1sp" android:textColor="#ffffff" android:background="#dd2c00" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll4" android:text="SUGRA" android:linksClickable="true" android:onClick="goToSugra"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_height="wrap_content" android:layout_marginBottom="1sp" android:textColor="#ffffff" android:background="#dd2c00" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll45" android:text="Kaluza–Klein" android:linksClickable="true" android:onClick="goToKKT"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_height="wrap_content" android:layout_marginBottom="1sp" android:textColor="#ffffff" android:background="#dd2c00" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll46" android:text="Superfluid Vaccum Theory" android:linksClickable="true" android:onClick="goToSVT"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_height="wrap_content" android:layout_marginBottom="1sp" android:textColor="#ffffff" android:background="#dd2c00" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll47" android:text="Theory of Everything" android:linksClickable="true" android:onClick="goToTOE"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_height="wrap_content" android:layout_marginBottom="1sp" android:textColor="#ffffff" android:background="#dd2c00" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll478" android:text="String Theory" android:linksClickable="true" android:onClick="goToST"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_height="wrap_content" android:layout_marginBottom="1sp" android:textColor="#ffffff" android:background="#dd2c00" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll4789" android:text="Curse of Dimensionality" android:linksClickable="true" android:onClick="goToCOD"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:layout_height="wrap_content" android:layout_marginBottom="1sp" android:textColor="#ffffff" android:background="#dd2c00" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll4781" android:text="Calabi-Yau Manifold" android:linksClickable="true" android:onClick="goToCYM"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:textColor="#ffffff" android:layout_marginBottom="1sp" android:background="#b31217"   android:layout_height="wrap_content" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll4567" android:text="Imagining 10Ds" android:linksClickable="true" android:onClick="goToTENV"></Button>
+            </TableRow>
+            <TableRow>
+                <Button android:textColor="#ffffff" android:background="#b31217"  android:layout_height="wrap_content" android:clickable="true" android:autoLink="web" android:cursorVisible="true" android:layout_width="match_parent" android:id="@+id/button_ll45679" android:text="HyperCube Rotations" android:linksClickable="true" android:onClick="goToDR"></Button>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

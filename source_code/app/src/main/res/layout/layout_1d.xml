@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10sp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1D"
+        android:id="@+id/textView"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Line"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:paddingTop="10sp"
+        android:fillViewport="true"
+        android:layout_height="fill_parent"
+        >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            >
+            <TableRow>
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:background="@drawable/oned"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/imageView" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="In physics and mathematics, a sequence of n numbers can be understood as a location in n-dimensional space. When n = 1, the set of all such locations is called a one-dimensional space" >
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="One-Dimensional Geometry"
+                    android:id="@+id/textView23"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:padding="10sp"
+                    android:text="Polytopes"
+                    android:id="@+id/textView24"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="The only regular polytope in one dimension is the line segment, with the Schläfli symbol { }."
+                    android:id="@+id/textView25"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="HyperSphere"
+                    android:id="@+id/textView26"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="The hypersphere in 1 dimension is a pair of points, sometimes called a 0-sphere as its surface is zero-dimensional. Its length is"
+                    android:id="@+id/textView27"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/onedf"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageViewf" />
+            </TableRow>
+        </TableLayout>
+        </ScrollView>
+</LinearLayout>

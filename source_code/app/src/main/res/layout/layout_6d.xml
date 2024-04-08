@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:padding="10sp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6D"
+        android:textSize="40sp"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hexeract"
+        android:id="@+id/textView17"
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:paddingTop="10sp"
+        android:fillViewport="true"
+        android:layout_height="fill_parent"
+        >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            >
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/sixd"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageView" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="Six-dimensional space is any space that has six dimensions, that is, six degrees of freedom, and that needs six pieces of data, or coordinates, to specify a location in this space." >
+                </TextView>
+
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="More generally, any space that can be described locally with six coordinates, not necessarily Euclidean ones, is six-dimensional. One example is the surface of the 6-sphere, S6. This is the set of all points in seven-dimensional Euclidean space ℝ7 that are equidistant from the origin. This constraint reduces the number of coordinates needed to describe a point on the 6-sphere by one, so it has six dimensions. Such non-Euclidean spaces are far more common than Euclidean spaces, and in six dimensions they have far more applications." >
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Six-Dimensional Geometry"
+                    android:id="@+id/textView23"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:padding="10sp"
+                    android:text="Polytopes"
+                    android:id="@+id/textView24"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="A polytope in six dimensions is called a 6-polytope. The most studied are the regular polytopes, of which there are only three in six dimensions: the 6-simplex, 6-cube, and 6-orthoplex. A wider family are the uniform 6-polytopes, constructed from fundamental symmetry domains of reflection, each domain defined by a Coxeter group. Each uniform polytope is defined by a ringed Coxeter-Dynkin diagram. The 6-demicube is a unique polytope from the D6 family, and 221 and 122 polytopes from the E6 family."
+                    android:id="@+id/textView25"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView14d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/shapeLayout4d"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/sixd1"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf333454d" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/sixd2"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd14d" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/sixd3"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd24d" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/sixd4"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd24dd" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="HyperSphere"
+                    android:id="@+id/textView26"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="The 5-sphere, or hypersphere in six dimensions, is the five-dimensional surface equidistant from a point. It has symbol S5, and the equation for the 5-sphere, radius r. The volume of six-dimensional space bounded by this 5-sphere is"
+                    android:id="@+id/textView27"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/sixdf"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageViewf" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

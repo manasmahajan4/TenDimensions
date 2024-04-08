@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10sp"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2D"
+        android:textSize="40sp"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plane"
+        android:id="@+id/textView12"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:paddingTop="10sp"
+        android:fillViewport="true"
+        android:layout_height="fill_parent"
+        >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            >
+            <TableRow>
+                <ImageView
+                    android:layout_height="300sp"
+                    android:layout_width="300sp"
+                    android:background="@drawable/twod"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageView2d" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis2d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="In physics and mathematics, two-dimensional space or bi-dimensional space is a geometric model of the planar projection of the physical universe. The two dimensions are commonly called length and width. Both directions lie in the same plane." >
+                </TextView>
+
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis22d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="A sequence of n real numbers can be understood as a location in n-dimensional space. When n = 2, the set of all such locations is called two-dimensional space or bi-dimensional space" >
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Two-Dimensional Geometry"
+                    android:id="@+id/textView232d"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:padding="10sp"
+                    android:text="Polytopes"
+                    android:id="@+id/textView242d"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="In two dimensions, there are infinitely many polytopes: the polygons. The first few regular ones are shown below:"
+                    android:id="@+id/textView252d"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_height="250sp"
+                    android:layout_width="250sp"
+                    android:background="@drawable/twod1"
+                    android:padding="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageViewf1" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_height="250sp"
+                    android:layout_width="250sp"
+                    android:background="@drawable/twod2"
+                    android:padding="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageViewf2" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_height="250sp"
+                    android:layout_width="250sp"
+                    android:background="@drawable/twod3"
+                    android:padding="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageViewf3" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_height="250sp"
+                    android:layout_width="250sp"
+                    android:background="@drawable/twod4"
+                    android:padding="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageViewf3123" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="HyperSphere"
+                    android:id="@+id/textView262d"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="The hypersphere in 2 dimensions is a circle, sometimes called a 1-sphere (S1) because it is an one-dimensional manifold. In a Euclidean plane, it has the length 2πr and the area of its interior is"
+                    android:id="@+id/textView272d"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/twodf"
+                    android:paddingBottom="10sp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageViewf" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:padding="10sp"
+    android:background="#fafafa"
+    android:layout_height="match_parent">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:paddingTop="10sp"
+        android:fillViewport="true"
+        android:layout_height="fill_parent"
+        >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            >
+            <TableRow>
+                <ImageView
+                    android:layout_height="128sp"
+                    android:layout_width="100sp"
+                    android:background="@drawable/ic_launcher"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageViewofapp" />
+            </TableRow>
+            <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="TenDimensions"
+                android:layout_gravity="center"
+                android:id="@+id/textView237658584758"
+                android:layout_column="0" />
+        </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d233368"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textSize="25sp"
+                    android:text="Ever wondered what lies beyond the 4th Dimension?" >
+                </TextView>
+
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d2333684543435"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textSize="15sp"
+                    android:text="Then you're at the right place. This app will impose all the mindblowing theories proposed till date into your magnificent brain. Get ready to be amazed at the reality beyond our reach. Know how it works ,its functioning and theories stated by some brilliant human minds. " >
+                </TextView>
+
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d23336811111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textSize="15sp"
+                    android:text="All the content and information compiled inside the app have been forged from the following sources: " >
+                </TextView>
+
+            </TableRow>
+            <TableRow>
+                <Button android:id="@+id/source"
+                    android:text="Sources"
+                    android:textColor="#ffffff"
+                    android:background="#2962ff"
+                    android:clickable="true" android:autoLink="web" android:cursorVisible="true"
+                    android:linksClickable="true" android:onClick="goTosrc"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="5sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Developer"
+                    android:layout_gravity="center"
+                    android:id="@+id/textView235474765865"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:background="@drawable/photo"
+                    android:layout_height="250sp"
+                    android:id="@+id/mypic"
+                    android:layout_width="250sp"
+                    android:layout_gravity="center"
+                    />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="(Adnyey)"
+                    android:textSize="20sp"
+                    android:paddingBottom="5sp"
+                    android:id="@+id/textmyname"
+                    android:layout_gravity="center"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Manas Mahajan"
+                    android:textSize="30sp"
+                    android:id="@+id/textmyname2"
+                    android:layout_gravity="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10sp"
+                >
+                <LinearLayout
+                    android:layout_gravity="center">
+
+                <ImageButton
+                        android:id="@+id/plus"
+                        android:background="@drawable/plus"
+                        android:layout_width="30sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_height="30sp"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:onClick="goToplus"
+                        android:clickable="true"
+                />
+                <ImageButton
+                        android:id="@+id/fb"
+                        android:background="@drawable/fb"
+                        android:layout_width="30sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_height="30sp"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:onClick="goTofb"
+                        android:clickable="true"
+                />
+                <ImageButton
+                        android:id="@+id/twitter"
+                        android:background="@drawable/twitter"
+                        android:layout_width="30sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_height="30sp"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:onClick="goToTwitter"
+                        android:clickable="true"
+                />
+                    <ImageButton
+                        android:id="@+id/insta"
+                        android:background="@drawable/insta"
+                        android:layout_width="30sp"
+                        android:layout_marginLeft="10sp"
+                        android:autoLink="web"
+                        android:layout_marginRight="10sp"
+                        android:layout_height="30sp"
+                        android:linksClickable="true"
+                        android:onClick="goToinsta"
+                        android:clickable="true"
+                    />
+                    <ImageButton
+                        android:id="@+id/xda"
+                        android:background="@drawable/xda"
+                        android:layout_width="30sp"
+                        android:layout_marginLeft="10sp"
+                        android:layout_height="30sp"
+                        android:autoLink="web"
+                        android:linksClickable="true"
+                        android:onClick="goToxda"
+                        android:clickable="true"
+                        />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:padding="10sp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8D"
+        android:textSize="40sp"
+        android:id="@+id/textView8"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Octeract"
+        android:id="@+id/textView19"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:paddingTop="10sp"
+        android:fillViewport="true"
+        android:layout_height="fill_parent"
+        >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            >
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/eightd"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageView" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="In mathematics, a sequence of n real numbers can be understood as a location in n-dimensional space. When n = 8, the set of all such locations is called 8-dimensional space. Often such spaces are studied as vector spaces, without any notion of distance." >
+                </TextView>
+
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="More generally the term may refer to an eight-dimensional vector space over any field, such as an eight-dimensional complex vector space, which has 16 real dimensions. " >
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Eight-Dimensional Geometry"
+                    android:id="@+id/textView23"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:padding="10sp"
+                    android:text="Polytopes"
+                    android:id="@+id/textView24"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="A polytope in eight dimensions is called an 8-polytope. The most studied are the regular polytopes, of which there are only three in eight dimensions: the 8-simplex, 8-cube, and 8-orthoplex. A broader family are the uniform 8-polytopes, constructed from fundamental symmetry domains of reflection, each domain defined by a Coxeter group. Each uniform polytope is defined by a ringed Coxeter-Dynkin diagram. "
+                    android:id="@+id/textView25"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView14d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/shapeLayout4d"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/eightd1"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf333454d" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/eightd2"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd14d" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/eightd3"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd24d" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/eightd4"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd24dd" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="In geometry, an 8-cube is an eight-dimensional hypercube (8-cube). It has 256 vertices, 1024 edges, 1792 square faces, 1792 cubic cells, 1120 tesseract 4-faces, 448 5-cube 5-faces, 112 6-cube 6-faces, and 16 7-cube 7-faces."
+                    android:id="@+id/textView254"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="HyperSphere"
+                    android:id="@+id/textView26"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="The 7-sphere or hypersphere in eight dimensions is the seven-dimensional surface equidistant from a point, e.g. the origin. It has symbol S7, with formal definition for the 7-sphere with radius r. The volume of the space bounded by this 7-sphere is"
+                    android:id="@+id/textView27"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/eightdf"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageViewf" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="The octonions are a normed division algebra over the real numbers, the largest such algebra. Mathematically they can be specified by 8-tuplets of real numbers, so form an 8-dimensional vector space over the reals, with addition of vectors being the addition in the algebra."
+                    android:id="@+id/textView273"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="The complexified quaternions \mathbb{C} \otimes \mathbb{H}, or biquaternions, are an eight-dimensional algebra dating to William Rowan Hamilton's work in the 1850s. This algebra is equivalent (that is, isomorphic) to the Clifford algebra C \ell _2 (\mathbb{C}) and the Pauli algebra. It has also been proposed as a practical or pedagogical tool for doing calculations in special relativity, and in that context goes by the name Algebra of physical space (not to be confused with the Spacetime algebra, which is 16-dimensional.)"
+                    android:id="@+id/textView27312"
+                    android:layout_column="0" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

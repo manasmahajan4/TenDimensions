@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:padding="10sp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9D"
+        android:textSize="40sp"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enneract"
+        android:id="@+id/textView20"
+        android:layout_gravity="center_horizontal" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:paddingTop="10sp"
+        android:fillViewport="true"
+        android:layout_height="fill_parent"
+        >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0"
+            >
+            <TableRow>
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/nined"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageView" />
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="In geometry, a 9-cube is a nine-dimensional hypercube with 512 vertices, 2304 edges, 4608 square faces, 5376 cubic cells, 4032 tesseract 4-faces, 2016 5-cube 5-faces, 672 6-cube 6-faces, 144 7-cube 7-faces, and 18 8-cube 8-faces." >
+                </TextView>
+
+            </TableRow>
+            <TableRow>
+                <TextView android:id="@+id/dis1d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:text="It can be named by its Schläfli symbol {4,37}, being composed of three 8-cubes around each 7-face. It is also called an enneract, a portmanteau of tesseract (the 4-cube) and enne for nine (dimensions) in Greek. It can also be called a regular octadeca-9-tope or octadecayotton, as a nine-dimensional polytope constructed with 18 regular facets." >
+                </TextView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Nine-Dimensional Geometry"
+                    android:id="@+id/textView23"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:padding="10sp"
+                    android:text="Polytopes"
+                    android:id="@+id/textView24"
+                    android:layout_column="0" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:padding="10sp"
+                    android:text="@string/nined"
+                    android:id="@+id/textView25"
+                    android:layout_column="0" />
+            </TableRow>
+            <TableRow>
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView14d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/shapeLayout4d"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" >
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/nined1"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf333454d" />
+                        <ImageView
+                            android:layout_height="300sp"
+                            android:layout_width="300sp"
+                            android:background="@drawable/nined2"
+                            android:clickable="true"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/imageViewf3dd14d" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </TableRow>
+            </TableLayout>/
+    </ScrollView>
+</LinearLayout>
